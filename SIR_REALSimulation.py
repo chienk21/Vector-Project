@@ -59,8 +59,6 @@ ax.xaxis.set_tick_params(length = 0)
 ax.grid(b=True, which = 'major', c = 'w', lw = 2, ls = '-')
 legend = ax.legend()
 
-######################## what is set_alpha?
-#legend.get_frame().set_alpha(0.5)
 
 ######################## Area noting the data area boundaries
 for spine in('top', 'right', 'bottom', 'left'):
@@ -69,3 +67,4 @@ for spine in('top', 'right', 'bottom', 'left'):
 
 # show the plot of the graphs
 plt.show()
+
