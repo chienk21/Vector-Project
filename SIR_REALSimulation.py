@@ -13,7 +13,6 @@ S0 = N - I0 - R0
 beta = 0.2
 gamma = 1/10
 
-#LOOK THIS UP WHAT IS LINSPACE
 # A grid of time points (in days)
 t = numpy.linspace (0, 160, 160) 
 #####################
